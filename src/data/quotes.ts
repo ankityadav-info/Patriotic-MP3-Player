@@ -3,10 +3,10 @@ import { Quote } from '../types';
 export const PATRIOTIC_QUOTES: Quote[] = [
   {
     id: 'quote-1',
-    hindiText: 'क्यों मरते हो बेवफा सनम के लिए, दो गज जमीन मिलेगी दफन के लिए। मरना है तो मरो वतन के लिए, हसीना भी दुपट्टा उतार देगी कफन के लिए।',
-    englishText: 'Why die for an unfaithful lover, where you get just two yards of earth for burial. If you must die, die for the motherland; even a beauty will offer her veil as your shroud.',
-    author: 'Indian Patriotic Poetry',
-    category: 'Poetry'
+    hindiText: 'तुम मुझे खून दो, मैं तुम्हें आजादी दूंगा!',
+    englishText: 'Give me blood, and I shall give you freedom!',
+    author: 'Netaji Subhash Chandra Bose',
+    category: 'Slogans'
   },
   {
     id: 'quote-2',
@@ -24,10 +24,10 @@ export const PATRIOTIC_QUOTES: Quote[] = [
   },
   {
     id: 'quote-4',
-    hindiText: 'तुम मुझे खून दो, मैं तुम्हें आजादी दूंगा!',
-    englishText: 'Give me blood, and I shall give you freedom!',
-    author: 'Netaji Subhash Chandra Bose',
-    category: 'Slogans'
+    hindiText: 'क्यों मरते हो बेवफा सनम के लिए, दो गज जमीन मिलेगी दफन के लिए। मरना है तो मरो वतन के लिए, हसीना भी दुपट्टा उतार देगी कफन के लिए।',
+    englishText: 'Why die for an unfaithful lover, where you get just two yards of earth for burial. If you must die, die for the motherland; even a beauty will offer her veil as your shroud.',
+    author: 'Indian Patriotic Poetry',
+    category: 'Poetry'
   },
   {
     id: 'quote-5',
