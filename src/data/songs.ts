@@ -1,52 +1,41 @@
 import { Song } from '../types';
 
 export const SONGS: Song[] = [
-  {
-    id: 'aisa-des-hai-mera',
-    title: 'Aisa Des Hai Mera',
-    movie: 'Veer Zaara',
-    singers: 'Udit Narayan, Lata Mangeshkar, Gurdas Maan, Pritha Majumder',
-    year: '2004',
-    duration: '7:08',
-    audioUrl: 'https://github.com/ankityadav-info/Patriotic-Songs/raw/refs/heads/main/Songs/Aisa%20Des%20Hai%20Mera%20Veer%20Zaara%20320%20Kbps.mp3',
-    coverArt: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?q=80&w=600&auto=format&fit=crop', // Golden mustard fields & Tricolor spirit
-    accentColor: '#FF9933',
-    lyricsSnippet: 'Dharti sunhari ambar neela, ho ho aisa des hai mera...'
-  },
-  {
-    id: 'bande-mein-tha-dum',
-    title: 'Bande Mein Tha Dum',
-    movie: 'Lage Raho Munna Bhai',
-    singers: 'Sonu Nigam, Shreya Ghoshal, Pranab Kumar Biswas',
-    year: '2006',
-    duration: '4:14',
-    audioUrl: 'https://github.com/ankityadav-info/Patriotic-Songs/raw/refs/heads/main/Songs/Bande%20Mein%20Tha%20Dum...%20Vande%20Mataram%20Lage%20Raho%20Munna%20Bhai%20320%20Kbps.mp3',
-    coverArt: 'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=600&auto=format&fit=crop', // Ashoka Chakra emblem spirit
-    accentColor: '#1E3A8A',
-    lyricsSnippet: 'Bande mein tha dum... Vande Mataram!'
-  },
-  {
-    id: 'chak-de-india',
-    title: 'Chak De India',
-    movie: 'Chak De! India',
-    singers: 'Sukhwinder Singh, Salim Merchant, Marianne D’Cruz',
-    year: '2007',
-    duration: '4:42',
-    audioUrl: 'https://github.com/ankityadav-info/Patriotic-Songs/raw/refs/heads/main/Songs/Chak%20De%20India%20Title%20Song%20320%20Kbps.mp3',
-    coverArt: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600&auto=format&fit=crop', // Energetic stadium & Tiranga flag wave
-    accentColor: '#FF671F',
-    lyricsSnippet: 'Kuch kariye, kuch kariye, nas nas meri khaule... Chak de India!'
-  },
-  {
-    id: 'kandhon-se-milte-hain-kandhe',
-    title: 'Kandhon Se Milte Hain Kandhe',
-    movie: 'Lakshya',
-    singers: 'Shankar Mahadevan, Sonu Nigam, Hariharan, Roop Kumar Rathod, Kunal Ganjawala, Vijay Prakash',
-    year: '2004',
-    duration: '5:41',
-    audioUrl: 'https://github.com/ankityadav-info/Patriotic-Songs/raw/refs/heads/main/Songs/Kandhon%20Se%20Milte%20Hain%20Kandhe%20Lakshya%20320%20Kbps.mp3',
-    coverArt: 'https://images.unsplash.com/photo-1508873696983-2df515122519?q=80&w=600&auto=format&fit=crop', // Brave Armed forces marching unity
-    accentColor: '#138808',
-    lyricsSnippet: 'Kandhon se milte hain kandhe, qadmon se qadam milte hain... Hum chalte hain jab aise toh dil dushman ke hilte hain!'
-  }
+  {id: 'Bharat-Mata-Ki-Jai-',title:'Bharat Mata Ki Jai ',movie: '',singers: 'Shankar Mahadevan ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/48185',coverArt: 'https://pagalnew.com/coverimages/Bharat-Mata-Ki-Jai-Shankar-Mahadevan-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Bharat Mata Ki Jai ',},
+{id: 'Vande-Bharatam-',title:'Vande Bharatam ',movie: '',singers: 'Vishal Mishra ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/43073',coverArt: 'https://pagalnew.com/coverimages/Vande-Bharatam-Vishal-Mishra-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Bharatam ',},
+{id: 'Sare-Jahan-Se-Acha-',title:'Sare Jahan Se Acha ',movie: '',singers: 'Amruta Fadnavis ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/38270',coverArt: 'https://pagalnew.com/coverimages/sare-jahan-se-acha-the-new-blood-bharateeyans-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Sare Jahan Se Acha ',},
+{id: 'Vande-Mataram-',title:'Vande Mataram ',movie: '',singers: 'Shankar Mahadevan ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/35723',coverArt: 'https://pagalnew.com/coverimages/vande-mataram-code-name-tiranga-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Mataram ',},
+{id: 'Vande-Mataram-',title:'Vande Mataram ',movie: 'Vande Mataram 2022 ',singers: 'Dev Negi, Dharmendra Bhadouriya ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/32241',coverArt: 'https://pagalnew.com/coverimages/Vande-Mataram-Dev-Negi-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Mataram ',},
+{id: 'Hindustan-Meri-Jaan-',title:'Hindustan Meri Jaan ',movie: '',singers: 'Amit Trivedi, Kailash Kher ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/30064',coverArt: 'https://pagalnew.com/coverimages/hindustan-meri-jaan-shabaash-mithu-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Hindustan Meri Jaan ',},
+{id: 'Aye-Watan-Tere-Liye-',title:'Aye Watan Tere Liye ',movie: '',singers: 'Kavita Krishnamurti Subramaniam, Mohammed Aziz ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/25477',coverArt: 'https://pagalnew.com/coverimages/aye-watan-tere-liye-karma-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Aye Watan Tere Liye ',},
+{id: 'Jann-Gann-Mann-',title:'Jann Gann Mann ',movie: 'Satyameva Jayate 2 ',singers: 'B Praak, Arko ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/20830',coverArt: 'https://pagalnew.com/coverimages/jann-gann-mann-satyameva-jayate-2-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Jann Gann Mann ',},
+{id: 'Hum-Hindustani-',title:'Hum Hindustani ',movie: 'Hum Hindustani 2021 ',singers: 'Lata Mangeshkar ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/19275',coverArt: 'https://pagalnew.com/coverimages/Hum-Hindustani-Lata-Mangeshkar-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Hum Hindustani ',},
+{id: 'Vande-Mataram-',title:'Vande Mataram ',movie: 'Vande Mataram 2021 ',singers: 'Tiger Shroff ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/19164',coverArt: 'https://pagalnew.com/coverimages/Vande-Mataram-Tiger-Shroff-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Mataram ',},
+{id: 'Desh-Mere-',title:'Desh Mere ',movie: '',singers: 'Arijit Singh, Arko ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/19140',coverArt: 'https://pagalnew.com/coverimages/desh-mere-bhuj-the-pride-of-india-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Desh Mere ',},
+{id: 'Maa-Tujhe-Salaam-',title:'Maa Tujhe Salaam ',movie: 'Vande Mataram 1997 ',singers: 'A.R. Rahman ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/31968',coverArt: 'https://pagalnew.com/coverimages/maa-tujhe-salaam-vande-mataram-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Maa Tujhe Salaam ',},
+{id: 'Ae-Mere-Watan-Ke-Logon-',title:'Ae Mere Watan Ke Logon ',movie: '',singers: 'Lata Mangeshkar ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/31966',coverArt: 'https://pagalnew.com/coverimages/ae-mere-watan-ke-logon-lata-mangeshkar-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Ae Mere Watan Ke Logon ',},
+{id: 'Mera-Mulk-Mera-Desh-',title:'Mera Mulk Mera Desh ',movie: 'Diljale 1996 ',singers: 'Kumar Sanu, Aditya Narayan ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/15175',coverArt: 'https://pagalnew.com/coverimages/Mera-Mulk-Mera-Desh-Diljale-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Mera Mulk Mera Desh ',},
+{id: 'I-Love-My-India-',title:'I Love My India ',movie: 'Pardes 1997 ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/15040',coverArt: 'https://pagalnew.com/coverimages/i-love-my-india-male-pardes-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'I Love My India ',},
+{id: 'Sandese-Aate-Hain-',title:'Sandese Aate Hain ',movie: 'Border 1997 ',singers: 'Anu Malik, Sonu Nigam, Roopkumar Rathod ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/14718',coverArt: 'https://pagalnew.com/coverimages/sandese-aate-hain-border-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Sandese Aate Hain ',},
+{id: 'Hindustan-Hindustan-',title:'Hindustan Hindustan ',movie: 'Border 1997 ',singers: 'Anu Malik, Shankar Mahadevan, Sunali Rathod, Commentary By Kulbhushan Kharbanda ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/14717',coverArt: 'https://pagalnew.com/coverimages/hindustan-hindustan-border-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Hindustan Hindustan ',},
+{id: 'It-Happens-Only-In-India-',title:'It Happens Only In India ',movie: 'Pardesi Babu ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/14337',coverArt: 'https://pagalnew.com/coverimages/It-Happens-Only-In-India-Pardesi-Babu-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'It Happens Only In India ',},
+{id: 'Vande-Mataram-',title:'Vande Mataram ',movie: 'Phir Bhi Dil Hai Hindustani ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/13750',coverArt: 'https://pagalnew.com/coverimages/vande-mataram-phir-bhi-dil-hai-hindustani-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Mataram ',},
+{id: 'Phir-Bhi-Dil-Hai-Hindustani-',title:'Phir Bhi Dil Hai Hindustani ',movie: 'Phir Bhi Dil Hai Hindustani ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/13749',coverArt: 'https://pagalnew.com/coverimages/phir-bhi-dil-hai-hindustani-title-track-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Phir Bhi Dil Hai Hindustani ',},
+{id: 'Jis-Desh-Mein-',title:'Jis Desh Mein ',movie: 'Jis Desh Mein Ganga Rehta Hai ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/13743',coverArt: 'https://pagalnew.com/coverimages/title-track-jis-desh-mein-ganga-rehta-hai-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Jis Desh Mein ',},
+{id: 'Jalwa-Jalwa-',title:'Jalwa Jalwa ',movie: 'Hindustan Ki Kasam 1999 ',singers: 'Sukhwinder Singh, Udit Narayan, Jaspinder Narula ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/13609',coverArt: 'https://pagalnew.com/coverimages/Jalwa-Jalwa-Hindustan-Ki-Kasam-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Jalwa Jalwa ',},
+{id: 'Vande-Mataram-',title:'Vande Mataram ',movie: 'Kabhi Khushi Kabhie Gham ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/12343',coverArt: 'https://pagalnew.com/coverimages/vande-mataram-k3g-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Mataram ',},
+{id: 'Mera-Rang-De-Basanti-Chola-',title:'Mera Rang De Basanti Chola ',movie: '23rd March 1931 Shaheed ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/11720',coverArt: 'https://pagalnew.com/coverimages/mera-rang-de-basanti-chola-shaheed-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Mera Rang De Basanti Chola ',},
+{id: '',title:'',movie: '',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/10739',coverArt: 'https://pagalnew.com/coverimages/Aisa-Des-Hai-Mera-Veer-Zaara-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: '',},
+{id: 'Kandhon-Se-Milte-Hain-Kandhe-',title:'Kandhon Se Milte Hain Kandhe ',movie: 'Lakshya ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/10679',coverArt: 'https://pagalnew.com/coverimages/Kandhon-Se-Milte-Hain-Kandhe-Lakshya-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Kandhon Se Milte Hain Kandhe ',},
+{id: 'Vande-Mataram-',title:'Vande Mataram ',movie: 'Lage Raho Munna Bhai ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/9763',coverArt: 'https://pagalnew.com/coverimages/Bande-Mein-Tha-Dum...-Vande-Mataram-Lage-Raho-Munna-Bhai-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Vande Mataram ',},
+{id: 'Des-Rangila-',title:'Des Rangila ',movie: 'Fanaa 2006 ',singers: 'Jatin-Lalit, Prasoon Joshi ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/9652',coverArt: 'https://pagalnew.com/coverimages/Des-Rangila-Fanaa-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Des Rangila ',},
+{id: '',title:'',movie: '',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/8992',coverArt: 'https://pagalnew.com/coverimages/Chak-De-India-Chak-De!-India-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: '',},
+{id: 'Mharo-Desh-Mahaan-',title:'Mharo Desh Mahaan ',movie: 'War...Chhod Na Yaar ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/6309',coverArt: 'https://pagalnew.com/coverimages/Mharo-Desh-Mahaan-War...Chhod-Na-Yaar-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Mharo Desh Mahaan ',},
+{id: 'India-Waale-',title:'India Waale ',movie: 'Happy New Year ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/5076',coverArt: 'https://pagalnew.com/coverimages/India-Waale-Happy-New-Year-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'India Waale ',},
+{id: '',title:'',movie: '',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/3995',coverArt: 'https://pagalnew.com/coverimages/Toh-Dishoom-Pritam-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: '',},
+{id: 'Chunar-',title:'Chunar ',movie: 'ABCD 2 ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/2898',coverArt: 'https://pagalnew.com/coverimages/Chunar-ABCD-2-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Chunar ',},
+{id: 'Jhuk-Na-Paunga-',title:'Jhuk Na Paunga ',movie: 'Raid 2018 ',singers: 'Papon ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/2861',coverArt: 'https://pagalnew.com/coverimages/Jhuk-Na-Paunga-Raid-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Jhuk Na Paunga ',},
+{id: 'Hindustani-',title:'Hindustani ',movie: 'Street Dancer 3D ',singers: '',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/1873',coverArt: 'https://pagalnew.com/coverimages/Hindustani-Street-Dancer-3D-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Hindustani ',},
+{id: 'Yeh-Desh-Hai-Veer-Jawanon-Ka-I-',title:'Yeh Desh Hai Veer Jawanon Ka I ',movie: 'Naya Daur (1957) ',singers: 'O. P. Nayyar, Mohammed Rafi, Balbir Aayapuri ',year: '-',duration: '0:00',audioUrl: 'https://pagalnew.com/320-download/604',coverArt: 'https://pagalnew.com/coverimages/Yeh-Desh-Hai-Veer-Jawanon-Ka-I-Naya-Daur-(1957)-500-500.jpg',accentColor: '#FF9933',lyricsSnippet: 'Yeh Desh Hai Veer Jawanon Ka I ',}
+
 ];
