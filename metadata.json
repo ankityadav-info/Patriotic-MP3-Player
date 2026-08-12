@@ -1,0 +1,6 @@
+{
+  "name": "Patriotic MP3 Player",
+  "description": "An Indian Tricolor themed patriotic audio player featuring classic songs, smooth audio controls, and inspiring quotes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
